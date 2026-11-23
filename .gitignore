@@ -1,0 +1,57 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Java build output and packaged dependencies
+*.class
+*.jar
+*.war
+*.ear
+**/bin/
+**/build/
+**/out/
+**/target/
+.gradle/
+
+# IDE and editor-local state
+.metadata/
+.recommenders/
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs, caches, and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Credentials and cryptographic material
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials*.json
+secrets*.json
+
+# Local database/runtime files (the reviewed SQL schema remains tracked)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Eclipse project metadata is intentionally versioned because this repository
+# does not currently have a Maven or Gradle build descriptor.
